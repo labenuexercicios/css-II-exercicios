@@ -17,18 +17,19 @@ header{
     bottom: 5vh;
     text-align: center;
   }
-  
-  aside:active {
-    background-color: white;
-    color: black;
-  }
 
-  footer{
+  aside:hover{
+    background-color: black;
+    color:white;
+  }
+  
+   footer{
     background-color: black;
     color: white;
     width: 100%;
     position: sticky;
-    bottom: 0px
+    bottom: 0px;
+    text-align: center;
   }
   
   button{
