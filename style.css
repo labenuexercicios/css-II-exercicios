@@ -1,24 +1,50 @@
 header{
     border-bottom: 1px solid black;
+    text-align: center;
   }
   
-  main{
-    width: 800px;
+main{
+    width: auto;
+    text-align: left;
   }
   
-  aside{
-    width: 180px;
-    border: 1px solid black;
-  }
-  
-  footer{
-    background-color: black;
-    color: white;
-    width: 100%;
-  }
-  
-  button{
-    background-color: black;
-    color: white;
-    font-family: serif;
-  }
+body{
+  text-align: center;
+  position: relative;
+}
+
+button{
+  background-color: black;
+  color: white;
+  font-family: serif;
+  text-align: center;
+}
+
+button:active{
+  background-color: white;
+  color: black;
+}
+
+aside{
+  width: 180px;
+  border: 1px solid black;
+  position: fixed;
+  right: 10px;
+  bottom:1px;
+  text-align: center;
+}
+
+aside:active{
+  background-color: black;
+  color:white;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom:0px;
+  left: 0px;
+  right: 0px;
+}
