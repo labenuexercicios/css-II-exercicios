@@ -40,7 +40,7 @@ aside:active{
 }
 
 footer{
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.846);
   color: white;
   width: 100%;
   position: fixed;
