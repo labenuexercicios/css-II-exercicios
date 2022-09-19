@@ -1,50 +1,37 @@
-*{
-  margin: 0;
-  padding: 0;
-  
-  }
-
-
 header{
-    border-bottom: 1px solid black;
-    text-align: center;
-    background-color: blue;
-  }
-  
-  main{
-    width: 800px;
-    background-color: aqua;
-    margin: 0 auto;
-    text-align: left;
-    position: relative;
-    padding: 2vw;
-   
-    }
-  
-  aside{
-    width: 180px;
-    border: 1px solid black;
-    text-align: left;
-    background-color: brown;
-    position:absolute;
-    right: 0px;
+  border-bottom: 1px solid black;
+  text-align: center;
+}
+
+main{
+  width: 800px;
+  margin:auto;
+  position: relative;
+}
+
+aside{
+  width: 180px;
+  border: 1px solid black;
+  text-align: center;
+  margin-left: auto;
+}
+
+footer{
+  background-color: black;
+  color: white;
+  width: 100%;
+  /* margin-bottom: 0%; */
+}
+
+button:active{
+  background-color: black;
+  color: white;
+  font-family: serif;
+  justify-items: center;
+}
+section{
+  text-align: left;
+  /* border: 2px solid black; */
     
-  }
-  
-  footer{
-    background-color: black;
-    color: white;
-    width: 100%;
-    background-color: rgb(6, 7, 6);
-    
-  }
-  
-  button{
-    background-color: black;
-    color: white;
-    font-family: serif;
-    background-color: rgb(14, 14, 4);
-  }
-  section{
-    marg
-  }
+
+}
