@@ -1,20 +1,30 @@
 header{
     border-bottom: 1px solid black;
+    text-align: center;
+  }
+  body{
+    position: relative;
   }
   
   main{
     width: 800px;
+    margin:30px;  
   }
   
   aside{
     width: 180px;
     border: 1px solid black;
+    right: 0;
+    bottom: 0;
+    position: absolute;
   }
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: fixed;
+    bottom: 0;
   }
   
   button{
@@ -22,3 +32,11 @@ header{
     color: white;
     font-family: serif;
   }
+  button:active{
+    color: black;
+    background-color: white; 
+  }
+  aside:active{
+    color: white;
+    background-color: black;
+ }
