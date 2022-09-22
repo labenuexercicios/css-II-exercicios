@@ -1,24 +1,68 @@
-header{
-    border-bottom: 1px solid black;
-  }
-  
-  main{
-    width: 800px;
-  }
-  
-  aside{
-    width: 180px;
-    border: 1px solid black;
-  }
-  
-  footer{
-    background-color: black;
-    color: white;
-    width: 100%;
-  }
-  
-  button{
-    background-color: black;
-    color: white;
-    font-family: serif;
-  }
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: floralwhite;
+  background-image: url(./assets/photo-1543157145-f78c636d023d.avif);
+}
+
+header {
+  /* border-bottom: 1px solid brown; */
+  text-align: center;
+  background: radial-gradient(brown, beige);
+  color: white;
+  font-family: 'Trebuchet MS';
+  position: sticky;
+  top: 0;
+}
+
+main {
+  width: 800px;
+  height: 600px;
+  padding-top: 50px;
+  margin: 0 auto;
+  text-align: center;
+  color: brown;
+}
+
+section {
+  background-color: rgb(238, 215, 215);
+  font-family: 'Trebuchet MS';
+  line-height: 1.6;
+}
+
+aside {
+  width: 180px;
+  border: 1px solid brown;
+  position: fixed;
+  right: 0;
+  bottom: 30px;
+  text-align: center;
+}
+
+button {
+  background-color: brown;
+  border: 1px solid brown;
+  color: white;
+  font-family: serif;
+}
+
+button:active {
+  background-color: white;
+  color: brown;
+}
+
+aside:has(button:active) {
+  background-color: brown;
+  color: white;
+}
+
+footer {
+  background-color: brown;
+  color: white;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
