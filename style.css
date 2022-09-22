@@ -1,24 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 header{
     border-bottom: 1px solid black;
+    text-align: center;
   }
   
   main{
     width: 800px;
+    margin: 0 auto;
+    position: relative;
   }
   
   aside{
     width: 180px;
     border: 1px solid black;
+    position: fixed;
+    right: 0;
+    bottom: 20px;
+    text-align: center;
   }
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: absolute;
+    bottom: 0;
   }
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+  }
+
+  /* h1{
+    text-align: center;
+  }
+
+   button:active{
+    background-color: white;
+    color: black;
+  }
+  
+  aside:active{
+    background-color: black;
+    color: white;
+  } */
+
+  aside:has(button:active){
+    background-color: black;
+    color: white;
+  }
+
+  button:active{
+    background-color: white;
+    color: black;
   }
