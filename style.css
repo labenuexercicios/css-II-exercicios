@@ -1,24 +1,58 @@
+/* *{
+  padding: 0;
+  margin: 0;
+} */
+
+
 header{
     border-bottom: 1px solid black;
-  }
-  
+    
+  } 
+
+h1, h3{
+  text-align: center;
+}
+
   main{
+    height: 500px;
     width: 800px;
+    margin-left: 100px;
+    /* position: relative; */
+    
   }
   
   aside{
     width: 180px;
     border: 1px solid black;
+    position: absolute;
+    right: 0;
+    bottom: 50px;
+    text-align: center;
+ 
   }
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: sticky;
+    bottom: 0;
+    
   }
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+    z-index: 1;
+  }
+
+.texto-caixa:active( #texto-2:has){
+      background-color: black;
+      color: white;
+  }
+
+  .texto-clique:active{
+    background-color: white;
+    color: black;
   }
