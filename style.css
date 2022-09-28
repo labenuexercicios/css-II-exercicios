@@ -1,5 +1,8 @@
 header{
     border-bottom: 1px solid black;
+    text-align: center;
+    
+
   }
   
   main{
@@ -9,16 +12,25 @@ header{
   aside{
     width: 180px;
     border: 1px solid black;
+   position: absolute;
+  
   }
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: sticky;
+    border: 0;
+
   }
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+  }
+  section{
+    text-align: center;
+    height: 800px;
   }
