@@ -1,24 +1,61 @@
 header{
     border-bottom: 1px solid black;
+    text-align: center;
   }
   
   main{
-    width: 800px;
+    width: 97vw;
+    height: 90vh;
   }
+
+   main > section{
+    font-size: 1.7em;
+    margin: 2em 0;
+    text-align: justify;
+  } 
   
   aside{
-    width: 180px;
+    width: 12em;
     border: 1px solid black;
+    position: absolute;
+    right: 5em;
+    margin-top: 5em;
+    text-align: center;
   }
   
   footer{
     background-color: black;
     color: white;
+    font-size: 1.5em;
     width: 100%;
+    bottom: 0;
+    left: 0;
+    height: 5vh;
+    position: fixed;
+    text-align: center;
+    text-transform: uppercase;
+
   }
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+    align-items: center;
   }
+
+  aside:active{
+    background-color: #000;
+    color: #fff;
+  } 
+
+  button:active{
+    background-color: #fff;
+    color: #000;
+  }
+
+
+  /* aside:has(button:active){
+    background-color: #000;
+    color: #fff;
+  } */
