@@ -1,24 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: lightcoral;
+}
+
 header{
     border-bottom: 1px solid black;
+    text-align: center;
+    background-color: lightblue;
+    color: white;
+    position: sticky;
+    top: 0;
   }
   
   main{
     width: 800px;
+    text-align: center;
+    margin-top: 8vh;
+    padding: 10vh;
+    background-color: white;
   }
   
   aside{
     width: 180px;
-    border: 1px solid black;
-  }
-  
-  footer{
-    background-color: black;
-    color: white;
-    width: 100%;
+    border: 1px solid white;
+    position: fixed;
+    right: 200px;
+    bottom: 280px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
   }
   
   button{
-    background-color: black;
+    background-color: lightblue;
     color: white;
     font-family: serif;
   }
+
+  button:active{
+    color: black;
+    background-color: white;
+  }
+
+  aside:has(button:active){
+    background-color: lightblue;
+    color: lightcoral;
+    border: 1px solid lightblue;
+  }
+  
+  footer{
+    background-color: lightblue;
+    color: white;
+    width: 100%;
+    position:fixed;
+    bottom: 0;;
+  }
+  
