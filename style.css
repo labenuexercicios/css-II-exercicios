@@ -1,24 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 header{
     border-bottom: 1px solid black;
+    /*position: relative;
+    left: 25%;
+    right: 25%;*/
+    text-align: center;
   }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  /*header h1, h2 {
+    background-color: white;
+    position: relative;
+    left: 50%;
+    transform: translate3d(-50%, 0, 0);
+    width: 150px;
+  }*/
   
   main{
     width: 800px;
+    margin-bottom: 300px;
+    background-color: paleturquoise;
+    position: relative;
+    margin: 0 auto;
+    /*text-align: center;*/
   }
   
   aside{
     width: 180px;
-    border: 1px solid black;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    
+  }
+
+  div {
+    border: 1px, solid black;
+    height: 200px;
   }
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: fixed;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    bottom: 0;
+  }
+  footer p {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    text-align: center;
   }
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+    margin-bottom: 15px;
+    position: relative;
+    top: 180px;
+  }
+
+  button:active {
+    background-color: white;
+    color: black;
+  }
+   
+  button:active + div {
+    background-color: black;
+    color: white;
   }
