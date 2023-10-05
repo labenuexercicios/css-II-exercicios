@@ -22,3 +22,87 @@ header{
     color: white;
     font-family: serif;
   }
+  /* Centralizar o header */
+header {
+  text-align: center;
+  background-color: #ccc; 
+  padding: 20px; 
+}
+
+/* Centralizar o bloco de texto */
+main {
+  text-align: left; 
+  background-color: #f9f9f9; 
+  padding: 20px; 
+}
+/* Estilos gerais */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Centralizar header e corpo do texto */
+header, main {
+  text-align: center;
+}
+
+/* Estilo para o bloco de texto */
+main {
+  margin: 0 auto;
+  max-width: 800px; 
+}
+
+/* Estilos para o aside */
+aside {
+  float: right;
+  width: 200px;
+}
+
+/* Estilo para o footer */
+footer {
+  clear: both;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: #fff;
+}
+
+/* Centralizar o header e o bloco de corpo de texto */
+header {
+  text-align: center;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+
+/* Fixar o aside à direita */
+aside {
+  position: fixed;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 200px; /* Defina a largura desejada para o aside */
+  background-color: #f2f2f2; /* Cor de fundo desejada */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilizar o botão do aside quando clicado */
+aside button:active {
+  color: #fff; /* Texto branco */
+  background-color: #000; /* Fundo preto */
+}
+
+/* Colar o footer na parte inferior da tela */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333; /* Cor de fundo desejada para o footer */
+  color: #fff; /* Cor do texto desejada para o footer */
+  text-align: center;
+  padding: 10px;
+}
