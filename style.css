@@ -1,24 +1,50 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
 header{
     border-bottom: 1px solid black;
+    text-align: center;
+    height: 10vh;
+    margin-top: 3vh;
   }
   
   main{
     width: 800px;
+    text-align: justify;
+    margin: auto;
+    position: relative;
+    height: 80vh;
   }
   
   aside{
     width: 180px;
     border: 1px solid black;
+    position: fixed;
+    right: 15px;
+    top: 25vh;
+    text-align: center;
+    
   }
   
   footer{
     background-color: black;
     color: white;
     width: 100%;
+    position: sticky;
+    bottom: 0px;
+    height: 10vh;
+   
   }
   
   button{
     background-color: black;
     color: white;
     font-family: serif;
+  }
+
+  button:active{
+    background-color: white;
+    color:black
   }
